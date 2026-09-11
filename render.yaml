@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: seungje-kyungae-family-weekend
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /
+    autoDeployTrigger: commit

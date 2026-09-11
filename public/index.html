@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#fffaf4" />
+  <title>승제경애 가족 나들이 앱</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="eyebrow">일산 · 파주 이번 주말</p>
+      <h1>승제경애 가족 나들이 앱</h1>
+      <p class="weekend" id="weekend">이번 주말을 계산하고 있어요</p>
+      <p class="sub">아무것도 고르지 않아도, 이번 주말 갈 만한 곳을 모아드려요.</p>
+    </header>
+
+    <section class="status" id="status" aria-live="polite"></section>
+    <section class="choice-grid" aria-label="추천 메뉴" id="choices"></section>
+    <section class="results" id="results" aria-live="polite"></section>
+
+    <footer>추천은 일산동구 · 일산서구 · 파주시 안에서만 찾아요.</footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
